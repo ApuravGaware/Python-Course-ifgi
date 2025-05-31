@@ -21,7 +21,7 @@ for file in shapefiles:
     if layer.isValid():
         QgsProject.instance().addMapLayer(layer)
     else:
-        print(f"Failed to load: {file}")
+        print(f"Failed to load: {file}") 
 
 #Save project
 project.write('/Users/apurav/Desktop/myFirstProject.qgz')  
