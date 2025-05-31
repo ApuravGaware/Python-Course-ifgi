@@ -19,4 +19,3 @@ for feature in output_layer.getFeatures():
     district_name = feature['Name']  
     count = feature['school_count']
     print(f"{district_name}: {count}")
-
