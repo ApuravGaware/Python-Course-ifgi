@@ -27,5 +27,5 @@ else:
 
             file.write(f"{name};{x};{y}\n")
 
-    print(f"School report saved to: {output_path}")
+    print(f"School report saved to: {output_path}") 
 
